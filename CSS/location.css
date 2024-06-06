@@ -1,0 +1,229 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    padding-bottom: 1%;
+    position: fixed;
+    z-index: 1;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Dosis", sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover {
+    opacity: 0.8;
+    color: gold;
+}
+
+.nav1 {
+    color: white;
+    margin-top: 22px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+
+}
+
+.navinner {
+    width: 20%;
+}
+
+#shopbtn {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Dosis", sans-serif;
+    border: none;
+    color: white;
+}
+
+#shopbtn:hover {
+    color: gold;
+}
+.dropdown-item:hover{
+    background-color: #000000;
+    color: white;
+    font-weight: 800;
+}
+#logo {
+    position: fixed;
+    left: 46%;
+    margin-top: 6px;
+    width: 100px;
+}
+
+#section1 {
+    height: 100vh;
+    width: 100%;
+}
+
+#section2 {
+    height: 100vh;
+    width: 100%;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+#section3 {
+    height: 100vh;
+    width: 100%;
+}
+#section4 {
+    height: 100vh;
+    width: 100%;
+}
+.outter {
+    display: flex;
+    flex-direction: row;
+}
+
+.inner {
+    width: 50%;
+    height: 100vh;
+}
+
+#part1 {
+    background-image: url(../Resource/Img/location1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#part2 {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#part2 h3{
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-top: 2%;
+}
+#part2 h2{
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-top: 2%;
+}
+#part2 button{
+    padding: 1%;
+    font-weight: 600;
+    background-color: white;
+    color: #000000;
+    border: 3px solid black;
+}
+#part3 {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#part3 h3{
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-top: 2%;
+}
+#part3 h2{
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-top: 2%;
+}
+#part3 button{
+    padding: 1%;
+    font-weight: 600;
+    background-color: white;
+    color: #000000;
+    border: 3px solid black;
+}
+#part4 {
+    background-image: url(../Resource/Img/location2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    background-color: #000000;
+    font-family: "Dosis", sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footermaindiv1 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 2% 0 1% 0;
+}
+
+.footdiv1inner {
+    margin-bottom: 15%;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+#top {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#imgdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social {
+    width: 25px;
+}
+
+.social:hover {
+    box-shadow: 0 0 5px whitesmoke,
+        0 0 25px whitesmoke, 0 0 50px whitesmoke, 0 0 100px whitesmoke, 0 0 200px whitesmoke;
+}
+
+#footermaindiv2 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 2%;
+    padding: 0 2% 3% 2%;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.footlogo img{
+    position: absolute;
+    left: 44%;
+    width:90px;
+}
+@media screen and (max-width: 1050px) {
+    #logo {
+        display: none;
+    }
+}

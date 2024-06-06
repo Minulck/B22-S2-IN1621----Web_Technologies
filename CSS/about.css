@@ -1,0 +1,410 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    padding-bottom: 1%;
+    position: fixed;
+    z-index: 1;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Dosis", sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover {
+    opacity: 0.8;
+    color: gold;
+}
+
+.nav1 {
+    color: white;
+    margin-top: 22px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+
+}
+
+.navinner {
+    width: 20%;
+}
+
+#shopbtn {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Dosis", sans-serif;
+    border: none;
+    color: white;
+}
+
+#shopbtn:hover {
+    color: gold;
+}
+.dropdown-item:hover{
+    background-color: #000000;
+    color: white;
+    font-weight: 800;
+}
+#logo {
+    position: fixed;
+    left: 46%;
+    margin-top: 6px;
+    width: 100px;
+}
+
+.maindiv {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+}
+.background-video {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.divblack {
+    background-color: black;
+    width: 50%;
+    height: 100vh;
+}
+.video1-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'dosis',sans-serif;
+}
+table {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    border: none;
+}
+
+.r1div1 {
+    width: 50vw;
+    height: 50vh;
+    filter: grayscale();
+}
+
+.r1div2 {
+    width: 50vw;
+    height: 100vh;
+}
+.r2div1{
+    width: 25vw;
+    height: 50vh;
+}
+table img{
+height: 100%;
+width: 100%;
+transition: 0.8s;
+}
+td{
+    overflow: hidden;
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.maindiv2 {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+}
+
+
+.maindiv3 {
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.97);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.div1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../Resource/Img/01.jpg);
+    width: 33.33%;
+    height: 100vh;
+    opacity: 0.9;
+    background-size: cover;
+
+}
+
+.div2 {
+    background-color: black;
+    width: 33.33%;
+    height: 100vh;
+    opacity: 0.9;
+    background-size: cover;
+
+}
+
+.div3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../Resource/Img/03.jpg);
+    width: 33.33%;
+    height: 100vh;
+    opacity: 0.9;
+    background-size: cover;
+
+}
+
+.div4 {
+    background-image: url(../Resource/Img/04.jpg);
+    width: 50%;
+    height: 100vh;
+    opacity: 0.9;
+    background-size: cover;
+}
+
+.div6 {
+    background-image: url(../Resource/Img/05.jpg);
+    width: 50%;
+    height: 100vh;
+    opacity: 0.9;
+    background-size: cover;
+}
+
+.div9 {
+    background-image: url(../Resource/Img/div9.jpg);
+    width: 50%;
+    height: 100vh;
+    opacity: 0.9;
+    background-size: cover;
+    position: relative;
+}
+
+.div10 {
+    background-image: url(../Resource/Img/07.jpg);
+    width: 50%;
+    height: 100vh;
+    opacity: 0.9;
+    background-size: cover;
+}
+
+.div001 {
+    width: 25%;
+    height: 50vh;
+    
+}
+
+.div002 {
+    width: 25%;
+    height: 50vh;
+    background-color: black
+}
+
+.div003 {
+    width: 25%;
+    height: 50vh;
+    
+}
+
+.div004 {
+    width: 25%;
+    height: 50vh;
+    background-color: black
+}
+
+
+.overlay-text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family:'dosis',sans-serif;
+}
+
+p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.imagediv {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+}
+
+.leftdiv {
+    width: 50%;
+    height: 100vh;
+}
+
+
+.rightdiv {
+    width: 50%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../Resource/Img/right1.jpg);
+    opacity: 0.9;
+    background-size: cover;
+}
+
+.image1 {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../Resource/Img/left1.jpg);
+    opacity: 0.9;
+    background-size: cover;
+}
+
+.subdiv {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+}
+
+.image2 {
+    height: 50vh;
+    width: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../Resource/Img/left2.jpg);
+    opacity: 0.9;
+    background-size: cover;
+}
+
+.image3 {
+    height: 50vh;
+    width: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../Resource/Img/left3.jpg);
+    opacity: 0.9;
+    background-size: cover;
+}
+
+.background-video2 {
+    position: relative;
+    width: 33.33%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-video2 video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+}
+.video2-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Dosis", sans-serif;
+}
+
+footer {
+    background-color: #000000;
+    font-family: "Dosis", sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footermaindiv1 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 2% 0 1% 0;
+}
+
+.footdiv1inner {
+    margin-bottom: 15%;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+#top {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#imgdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social {
+    width: 25px;
+}
+
+.social:hover {
+    box-shadow: 0 0 5px whitesmoke,
+        0 0 25px whitesmoke, 0 0 50px whitesmoke, 0 0 100px whitesmoke, 0 0 200px whitesmoke;
+}
+
+#footermaindiv2 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 2%;
+    padding: 0 2% 3% 2%;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.footlogo img{
+    position: absolute;
+    left: 44%;
+    width:90px;
+}
+
+#sec1vdo{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+}
+@media screen and (max-width: 1050px) {
+    #logo {
+        display: none;
+    }
+}
