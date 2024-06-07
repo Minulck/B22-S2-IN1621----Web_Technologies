@@ -26,39 +26,66 @@
 
 <body>
 
-  <nav>
-    <div class="nav1">
-        <div class="nav1inner">
-            <a href="home_page.html">Home</a>
+<nav id="mobilenav">
+        <div class="nav1">
+            <div class="nav1inner">
+                <a href="home_page.html">Home</a>
+            </div>
+            <div class="nav1inner">
+                <a href="about.html">About Us</a>
+            </div>
         </div>
-        <div class="nav1inner">
-            <a href="about.html">About Us</a>
+        <div id="logo">
+            <a href="home_page.html"><img id="logo" src="Resource/icon/logo.png" alt="logo"></a>
         </div>
-        <div class="nav1inner">
-            <a href="journal.html">Journal</a>
+
+            <div class="nav1inner">
+                <button id="shopbtn" data-bs-toggle="dropdown" aria-expanded="false">
+                    &#9780; &#x25BC;
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="wholesale.php">Wholesale</a></li>
+                    <li><a class="dropdown-item" href="menu.html">Menu</a></li>
+                    <li><a class="dropdown-item" href="journal.html">Journal</a></li>
+                    <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                    <li><a class="dropdown-item" href="sale.html">Items</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div id="logo">
-        <a href="home_page.html"><img id="logo" src="Resource/icon/logo.png" alt="logo"></a>
-    </div>
-    <div class="nav1">
-        <div class="nav1inner">
-            <a href="menu.html">Menu</a>
+    </nav>
+    <nav id="normalnav">
+        <div class="nav1">
+            <div class="nav1inner">
+                <a href="home_page.html">Home</a>
+            </div>
+            <div class="nav1inner">
+                <a href="about.html">About Us</a>
+            </div>
+            <div class="nav1inner">
+                <a href="journal.html">Journal</a>
+            </div>
         </div>
-        <div class="nav1inner">
-            <a href="wholesale.php">Wholesale</a>
+        <div id="logo">
+            <a href="home_page.html"><img id="logo" src="Resource/icon/logo.png" alt="logo"></a>
         </div>
-        <div class="nav1inner">
-            <button id="shopbtn" data-bs-toggle="dropdown" aria-expanded="false">
-                Shop Now &#x25BC;
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="cart.html">Cart</a></li>
-                <li><a class="dropdown-item" href="sale.html">Items</a></li>
-            </ul>
+        <div class="nav1">
+            <div class="nav1inner">
+                <a href="menu.html">Menu</a>
+            </div>
+            <div class="nav1inner">
+                <a href="wholesale.php">Wholesale</a>
+            </div>
+            <div class="nav1inner">
+                <button id="shopbtn" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shop Now &#x25BC;
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                    <li><a class="dropdown-item" href="sale.html">Items</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
   <section>
     <h1 id="maintopic">Book a Table</h1>
     <div id="table">

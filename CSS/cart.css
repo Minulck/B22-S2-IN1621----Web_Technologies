@@ -62,7 +62,9 @@ nav a:hover {
     margin-top: 6px;
     width: 100px;
 }
-
+#mobilenav{
+    display:none;
+}
 .cart1{
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.95);
@@ -166,3 +168,81 @@ footer a {
     width:90px;
 }
 
+@media screen and (max-width: 500px) {
+
+    #normalnav{
+        display: none;
+    }
+    #mobilenav{
+        display:flex;
+    }
+    nav {
+        justify-content: space-between;
+        padding-bottom: 4%;
+    
+    }
+    
+    nav a {
+    
+        font-size: 15px;
+    
+    }
+    .nav1 {
+        margin-top: 22px;
+        font-size:10px;
+        justify-content: space-evenly;
+        width: 30%;
+    }
+    #shopbtn {
+        margin-top: 18px;
+    }
+    #logo {
+        display: block;
+        position: absolute;
+        left: 32%;
+    }
+
+    footer {
+        padding-bottom: 20px;
+    }
+
+    #footermaindiv1 {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 2% 0 1% 0;
+    }
+
+    .footdiv1inner {
+        margin-bottom: 10%;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding-bottom: 0;
+    }
+
+    #top {
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    #imgdiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .social {
+        width: 15px;
+    }
+
+    #footermaindiv2 {
+        padding-bottom: 12%;
+    }
+
+    .footlogo img {
+        display: none;
+    }
+}
